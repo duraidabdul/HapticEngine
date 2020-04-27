@@ -5,6 +5,6 @@ https://developer.apple.com/documentation/corehaptics/updating_continuous_and_tr
 
 ### How to use HapticEngine
 
-Create an instance of HapticEngine() sometime *before* you need to use it.
+Create an instance of `HapticEngine()` sometime *before* you need to use it.
 
-When you need to trigger a tap call ```hapticEngine.playHapticTransient(intensity: Float, sharpness: Float)```, where intensity and sharpness are values between 0 and 1.
+When you need to trigger a tap call `hapticEngine.playHapticTransient(intensity: Float, sharpness: Float)`, where intensity and sharpness are values between 0 and 1.
