@@ -109,7 +109,7 @@ class HapticEngine {
     }
     
     /// - Tag: PlayTransientPattern
-    // Play a haptic transient pattern at the given time, intensity, and sharpness.
+    // Play a haptic transient pattern at the given intensity and sharpness.
     func playHapticTransient(intensity: Float,
                              sharpness: Float) {
         
